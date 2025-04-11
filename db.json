@@ -1,14 +1,63 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 13 Pro",
+      "price": 15000,
+      "description": "Az kullanılmış, temiz durumda",
+      "seller": "Ahmet Yılmaz",
+      "location": "İstanbul",
+      "image": "assets/icons/iphone.png",
+      "status": "Aktif"
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro M1",
+      "price": 25000,
+      "description": "Kutulu, faturalı, 1 yıl garantili",
+      "seller": "Mehmet Demir",
+      "location": "Ankara",
+      "image": "assets/icons/laptop.png",
+      "status": "İncelemede"
+    },
+    {
+      "id": 3,
+      "title": "PlayStation 5",
+      "price": 13500,
+      "description": "Sıfır, kutulu, 2 adet kol ile",
+      "seller": "Ayşe Kaya",
+      "location": "İzmir",
+      "image": "assets/icons/game.png",
+      "status": "Aktif"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "cart": [
+    {
+      "id": 1,
+      "productId": 1,
+      "title": "iPhone 13 Pro",
+      "price": 15000,
+      "quantity": 1,
+      "image": "assets/icons/iphone.png",
+      "seller": "Ahmet Yılmaz"
+    },
+    {
+      "id": 2,
+      "productId": 3,
+      "title": "PlayStation 5",
+      "price": 13500,
+      "quantity": 1,
+      "image": "assets/icons/game.png",
+      "seller": "Ayşe Kaya"
+    }
   ],
-  "profile": {
-    "name": "typicode"
+  "user": {
+    "id": 1,
+    "name": "Kullanıcı Adı",
+    "email": "kullanici@email.com",
+    "activeListings": 3,
+    "soldItems": 5,
+    "favorites": 12,
+    "followers": 24
   }
 }
